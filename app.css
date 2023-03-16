@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body,
+.container {
+  background-color: #222831;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main,
+tools {
+  height: 6vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.main input {
+  height: 100%;
+  outline: none;
+  border: none;
+  padding-left: 1rem;
+}
+
+.main input:first-of-type {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.main input:last-of-type {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.tools button {
+  height: 100%;
+  width: max-content;
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.tools button:hover {
+  background-color: #30475e;
+  color: #dddddd;
+}
+.tools button:hover > svg {
+  fill: blue;
+}
+.tools button > svg {
+  margin-right: 0.5rem;
+}
+
+.copy-btn {
+  transition: all 0.3s ease-in-out;
+}
