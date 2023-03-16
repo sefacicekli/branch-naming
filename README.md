@@ -1,4 +1,4 @@
-# My Branch Rules
+# Branch Naming Rules
 
 - Author name
 - Date (Current date with local timezone as a default)
